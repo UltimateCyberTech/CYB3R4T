@@ -31,23 +31,23 @@ A cloud based remote android managment suite, powered by NodeJS
 
 ## Installation
 ### For Cyber-Termux Users
-- `apt install CYB3R4T`
-- Run server `CYB3R4T`
+- `apt install Cyberat`
+- Run server `Cyberat`
 
 ### For Termux & Linux Users
 1. Install NodeJs `apt install nodejs`
 
-2. Clone `git clone https://github.com/UltimateCyberTech/CYB3R4T.git`
+2. Clone `git clone https://github.com/UltimateCyberTech/Cyberat.git`
 
-3. Goto server directory `cd CYB3R4T/server`
+3. Goto server directory `cd Cyberat/server`
 
 4. Install all dependencies `npm install`
 
-5. Make a separate directory where CYB3R4T app will be save `mkdir ~/CYB3R4T`
+5. Make a separate directory where Cyberat app will be save `mkdir ~/Cyberat`
 
 6. Run server `node index.js`
 
-7. In your browser navigate to `http://<SERVER IP>:22533` & Login with default username and password ( By default server will run on localhost and to make a client APP you can use [PORTMAP](https://portmap.io) to access APP on wide area network , check below for demo to setup haxRAT with PORTMAP.)
+7. In your browser navigate to `http://<SERVER IP>:22533` & Login with default username and password ( By default server will run on localhost and to make a client APP you can use [PORTMAP](https://portmap.io) to access APP on wide area network , check below for demo to setup CYB3R4T with PORTMAP.)
 
 ### For default PASSWORD Watch Video Tuturiol
 
@@ -63,4 +63,4 @@ A cloud based remote android managment suite, powered by NodeJS
 
 ## Disclaimer
 <b>I ( Rajdeep Verma [UltimateCyberTech] )  Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-CYB3R4T is built for both Educational and Internal use ONLY.</b>
+Cyberat is built for both Educational and Internal use ONLY.</b>
