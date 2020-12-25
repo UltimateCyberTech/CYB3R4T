@@ -30,11 +30,11 @@ A cloud based remote android managment suite, powered by NodeJS
 - Call Blocker
 
 ## Installation
-### For TermuxBlack Users
+### For Cyber-Termux Users
 - `apt install CYB3R4T`
 - Run server `CYB3R4T`
 
-### For Termux Users
+### For Termux & Linux Users
 1. Install NodeJs `apt install nodejs`
 
 2. Clone `git clone https://github.com/UltimateCyberTech/CYB3R4T.git`
