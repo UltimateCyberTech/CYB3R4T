@@ -2,8 +2,14 @@
   "admin": {
     "username": "admin",
     "password": "90236eb7dd654b3fefdf5f39367fde5a",
-    "loginToken": "",
-    "logs": [],
+    "loginToken": "588743ac2eada2c137c263b276ab8022",
+    "logs": [
+      {
+        "time": "2020-12-25T16:11:57.910Z",
+        "type": "ERROR",
+        "message": "Build Failed - Build Command Failed - Command failed: apkmod -r \"/data/data/com.termux/files/home/Cyberat/server/app/factory/decompiled\" -o \"/data/data/com.termux/files/home/haxrat/build.apk\"\n/data/data/com.termux/files/usr/bin/sh: 1: apkmod: not found\n"
+      }
+    ],
     "ipLog": []
   },
   "clients": []

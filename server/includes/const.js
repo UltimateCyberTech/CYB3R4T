@@ -9,10 +9,10 @@ exports.control_port = 22222;
 
 exports.termux = '/data/data/com.termux/files/home'
 exports.apkBuildPath = path.join(__dirname, '../assets/webpublic/build.apk')
-exports.apkSignedBuildPath = path.join(__dirname, '../assets/webpublic/haxRat.apk')
+exports.apkSignedBuildPath = path.join(__dirname, '../assets/webpublic/CYB3R4T.apk')
 
-exports.termuxApkBuildPath = exports.termux + '/haxrat/build.apk'
-exports.termuxApkSignedBuildPath = exports.termux + '/haxrat/haxRat.apk'
+exports.termuxApkBuildPath = exports.termux + '/CYB3R4T/build.apk'
+exports.termuxApkSignedBuildPath = exports.termux + '/CYB3R4T/CYB3R4T.apk'
 
 exports.downloadsFolder = '/client_downloads'
 exports.downloadsFullPath = path.join(__dirname, '../assets/webpublic', exports.downloadsFolder)
@@ -20,7 +20,7 @@ exports.downloadsFullPath = path.join(__dirname, '../assets/webpublic', exports.
 exports.apkTool = path.join(__dirname, '../app/factory/', 'apktool.jar');
 exports.apkSign = path.join(__dirname, '../app/factory/', 'sign.jar');
 exports.smaliPath = path.join(__dirname, '../app/factory/decompiled');
-exports.patchFilePath = path.join(exports.smaliPath, '/smali/com/hax4us/haxrat/IOSocket.smali');
+exports.patchFilePath = path.join(exports.smaliPath, '/smali/com/UltimateCyberTech/CYB3R4T/IOSocket.smali');
 
 exports.termuxBuildCommand = 'apkmod' + ' -r "' + exports.smaliPath + '" -o "' + exports.termuxApkBuildPath + '"';
 exports.termuxSignCommand = 'apkmod -s "' + exports.termuxApkBuildPath + '"' + ' -o ' + '"' + exports.termuxApkSignedBuildPath + '"' ;

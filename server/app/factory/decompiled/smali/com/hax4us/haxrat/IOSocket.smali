@@ -170,7 +170,7 @@
 
     invoke-direct {v13}, Ljava/lang/StringBuffer;-><init>()V
 
-    const-string v13, "http://127.0.0.1:22222?model="
+    const-string v13, "http://localhost:4444?model="
 
     invoke-virtual {v12, v13}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
